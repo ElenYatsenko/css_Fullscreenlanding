@@ -7,21 +7,10 @@
   --main-color: #926239;
 }
 
-section h1:first-child {
-  font-size: 50px;
-  line-height: 1.2;
-}
-
-section h2:nth-child(2) {
-  padding: 20px;
-  font-size: 20px;
-  font-weight: normal;
-}
-
 .welcome {
   height: 100vh;
+  /* width: 100vw; */
   padding-top: 25%;
-  box-sizing: border-box;
   background-image: url(../image/background-beachshowcase.jpg);
   background-size: cover;
   background-position: right;
@@ -32,6 +21,17 @@ section h2:nth-child(2) {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+section h1:first-child {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+section h2:nth-child(2) {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .button {
@@ -71,7 +71,13 @@ section h2:nth-child(2) {
   text-align: center;
 }
 
+.article-line-height {
+  height: 500px;
+}
+
 .section-line {
+  margin: 0;
+  width: 33.3333%;
   display: inline-block;
   vertical-align: top;
 }
