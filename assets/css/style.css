@@ -24,7 +24,7 @@ section h2:nth-child(2) {
   box-sizing: border-box;
   background-image: url(../image/background-beachshowcase.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   justify-content: center;
   text-align: center;
   color: var(--main-color);
@@ -57,9 +57,7 @@ section h2:nth-child(2) {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.section-main {
-  display: block;
-}
+
 .article-dark {
   padding: 20px;
   background: var(--main-color);
@@ -76,4 +74,15 @@ section h2:nth-child(2) {
 .section-line {
   display: inline-block;
   vertical-align: top;
+}
+
+.article-line-dark {
+  padding: 20px;
+  background: var(--main-color);
+  color: #fff;
+}
+
+.article-line-light {
+  padding: 20px;
+  background: #f4f4f4;
 }
